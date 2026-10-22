@@ -1,8 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Pequetienda" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/surfaceClaro</item>
+        <item name="colorSurface">@color/surfaceClaro</item>
+        <item name="colorOnSurface">@color/onSurfaceClaro</item>
+        <item name="colorButtonNormal">@color/primaryContainerClaro</item>
+        <item name="colorOnPrimary">@color/onPrimaryClaro</item>
+        <item name="colorOnContainer">@color/onPrimaryContainerClaro</item>
     </style>
 
     <style name="Theme.Pequetienda" parent="Base.Theme.Pequetienda" />
